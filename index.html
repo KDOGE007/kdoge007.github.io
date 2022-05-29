@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Haukai Restaurant</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalise css so the styling will behave the same in all browser -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- styling css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navigation bar -->
+      <nav class="flex phone">
+        <div class="left_nav">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="The restaurant" height="100px"
+          /></a>
+        </div>
+        <ul class="flex right_nav">
+          <li><a href="index.html">Home/About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="./secret/staff.php">Staff</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- cookies banner -->
+    <div class="cookie-banner" style="display: none">
+      <p>
+        By using our website, you agree to our
+        <a href="/privacy.html">cookie policy</a>
+      </p>
+      <button class="close">x</button>
+    </div>
+    <!-- banner image -->
+    <div class="banner">
+      <img
+        class="banner"
+        src="img/banner.jpg"
+        alt="A picture showing inside the restaurant"
+      />
+    </div>
+    <!-- about  -->
+    <div class="about flex">
+      <div class="about_left">
+        <h1>About the organisation</h1>
+        <p>
+          Haukai Restaurant specializes in Māori food, kai, and is based in the
+          Bay of Islands. It was started by a couple who are keen on creating a
+          business aiming to educate about Te Ao Māori culture through the
+          authentic homecook Māori kai.
+        </p>
+        <p>Come visit us today!</p>
+      </div>
+      <div class="about_right">
+        <h1>Opening hour</h1>
+        <p>Wednesday to Sunday 5:30pm - 11pm</p>
+      </div>
+    </div>
+    <footer>
+      <p>ALL RIGHTS RESERVED. ©COPYRIGHT 2022 THE HAUKAI RESTAURANT</p>
+    </footer>
+  </body>
+  <script src="/js/index.js"></script>
+</html>
