@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 607_ass3/
+web: vendor/bin/heroku-php-apache2 web/
